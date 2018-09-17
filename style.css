@@ -1,15 +1,16 @@
 body
 {
-	background-color:Blue;
+	background-color:#010101;
 }
 
 h1
 {
 	font-family:Arial, Helvetica;
-	color:#FF00FF;
+	color:#EFEFEF;
 }
 
 p
 {
-	font-family:Cambria
+	font-family:Cambria;
+	color:#EFEFEF;
 }
