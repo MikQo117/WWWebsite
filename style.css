@@ -1,5 +1,7 @@
 body
 {
+    border:3px solid #b7b7b7;
+    padding: 1%;
 	background-color:#010101;
 }
 
@@ -12,4 +14,8 @@ h1
 p
 {
 	color:#EFEFEF;
+}
+ul
+{
+
 }
