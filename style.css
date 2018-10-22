@@ -3,12 +3,17 @@ body
     border:3px solid #b7b7b7;
     padding: 1%;
 	background-color:#010101;
+	font-family: Ubuntu, Helvetica;
 }
 
 h1
 {
-	font-family:Arial, Helvetica;
-	color:#EFEFEF;
+	font-family: Ubuntu, Helvetica;
+	color:#D88900;
+	background-image: linear-gradient(to right, rgba(73,70,64,255), rgba(0,0,0,0));
+	border-radius: 0.2em;
+	width: 70%;
+	padding: 0.2em;
 }
 
 p
@@ -18,4 +23,66 @@ p
 ul
 {
 
+}
+
+nav
+{
+	display: block;
+	shape-outside: border-box;
+}
+div
+{
+	size: 20px,20px,20px,20px;
+	align-self: center;
+}
+
+.topnav
+{
+	background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+.topnav a
+{
+    color: #F3F3F3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    display: inline-block;
+}
+
+.topnav a:hover
+{
+    background-color: #DDD;
+    color: black;
+}
+
+.topnav a.active
+{
+    background-color: #D88900;
+    color: white;
+}
+
+.projects li a
+{
+	color: #F3F3F3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    display: inline-block;
+}
+
+.projects li a:hover
+{
+	background-color: #AAA;
 }
