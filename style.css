@@ -1,16 +1,17 @@
 body
 {
-    border:3px solid #b7b7b7;
-    padding: 1%;
-	background-color:#010101;
+//    border:3px solid #6D6E6A;
+    padding-left: 1%;
+    padding-top: 2%;
+	background-color:#282923;
 	font-family: Ubuntu, Helvetica;
 }
 
 h1
 {
 	font-family: Ubuntu, Helvetica;
-	color:#D88900;
-	background-image: linear-gradient(to right, rgba(73,70,64,255), rgba(0,0,0,0));
+	color:#D68800;
+	background-image: linear-gradient(to right, #42433eFF 10%, #00000000 75%);
 	border-radius: 0.2em;
 	width: 70%;
 	padding: 0.2em;
@@ -19,6 +20,8 @@ h1
 p
 {
 	color:#EFEFEF;
+	max-width: 700px;
+	min-width: 100px;
 }
 ul
 {
@@ -38,7 +41,7 @@ div
 
 .topnav
 {
-	background-color: #333;
+	background-color: #6D6E6A;
     overflow: hidden;
     text-align: center;
     align-items: center;
@@ -65,7 +68,7 @@ div
 
 .topnav a.active
 {
-    background-color: #D88900;
+    background-color: #D68800;
     color: white;
 }
 
