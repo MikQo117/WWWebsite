@@ -39,6 +39,12 @@ div
 	align-self: center;
 }
 
+#map
+{
+	width: 400px;
+	height: 400px;
+}
+
 .topnav
 {
 	background-color: #6D6E6A;
