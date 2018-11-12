@@ -95,16 +95,19 @@ nav
 
 .grid-container
 {
-    display: grid;
-    grid-template-areas: 
-        'header header header header header header'
-        'main main main main main main '
-        'footer footer footer footer footer footer ';
-    grid-gap: 10px;
+    display: inline-grid;
+    grid-template-areas: repeat(6, 1fr);
     background-color: #282923;
     padding: 10px;
 }
-.item-header { grid-area: header; }
+.item-header
+{
+    color: #F3F3F3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 .item-main  { grid-area: main; }
 .item-footer { grid-area: footer; }
 
