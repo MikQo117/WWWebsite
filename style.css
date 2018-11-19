@@ -91,23 +91,52 @@ nav
 	background-color: #AAA;
 }
 
-//Grid Stuff
-
 .grid-container
 {
-    display: inline-grid;
-    grid-template-areas: repeat(6, 1fr);
+    display: grid;
+    grid-template-areas: ", , , , ,";
+    grid-column-gap: 10px;
     background-color: #282923;
     padding: 10px;
 }
 .item-header
 {
     color: #F3F3F3;
+    background-color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    grid-area: header;
+}
+
+.item-header ul
+{
+    flex-direction: column;
+}
+
+.item-header li
+{
+    color: #F3F3F3;
+    background-color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    font-size: 17px;
+    grid-area: header;
+}
+
+.item-header a
+{
+    color: #F3F3F3;
+    background-color: #555555;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
+
 .item-main  { grid-area: main; }
 .item-footer { grid-area: footer; }
 
