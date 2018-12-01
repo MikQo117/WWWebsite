@@ -39,6 +39,7 @@ p
     margin-right: auto;
     width: 8em;
     display: inline-block;
+
 }
 
 .topnav a:hover
@@ -56,14 +57,17 @@ p
 .grid-header a
 {
     background-color: #555555;
+
     color: #F3F3F3;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
-    padding-top: 0.75em;
-    font-size: 17px;
-    height: 2em;
-    display: inline-block;
+    font-size: 20px;
+    height: 3em;
+
+    display:flex;
+    justify-content:center;
+    align-items:center
 }
 .grid-header a.active
 {
@@ -71,21 +75,6 @@ p
     color: white;
 }
 
-.left 
-{
-    margin-top: 1em;
-    background-image: linear-gradient(to left, #555555 10%, #454545 75%);
-    background-color: #c4c5c3;
-    grid-area: left;
-}
-
-.right 
-{
-    margin-top: 1em;
-    background-image: linear-gradient(to right, #555555, #454545);
-    background-color: #c4c5c3;
-    grid-area: right;
-}
 
 
 
@@ -98,14 +87,16 @@ p
 
 .body-container
 {
+
+//background-color: #c4c5c3;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: . . . . .;
-    grid-template-areas: 
-    "left header header header right"
-    ". main1 main1 main1 sidebar"
-    ". main1 main1 main1 sidebar"
+    grid-template-columns: 8vw 1fr 1fr 1fr 8vw;
+    grid-template-areas:
+    "header header header header header"
+    ". main1 main1 main1 empty"
+    ". main1 main1 main1 empty"
     "footer footer footer footer footer";
+     grid-template-rows: . . . . .;
     width: 100vw;
 }
 
@@ -117,11 +108,14 @@ p
 }
 .grid-header
 {
-    margin-top: 1em;
+    //justify-content: center;
+    
+    margin-top: 2em;
     display: grid;
     grid-area: header;
-    grid-template-columns: 2 / 4;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column: 2 / 5;
     grid-template-areas: 
     ". . . . .";
-
 }
