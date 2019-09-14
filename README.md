@@ -1,2 +1,0 @@
-# WWWebsite
-WWW ja internet
