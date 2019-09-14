@@ -105,6 +105,14 @@ video
     background-color: #D68800;
     color: white;
 }
+.item-content video
+{
+    width: 100%;
+}
+
+.item-content img
+{
+}
 
 .footer
 {
